@@ -1,0 +1,17 @@
+# virtualenvs — never commit these
+jupyter_env/
+venv/
+.venv/
+env/
+
+# notebook + python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# the full HYDTP dump stays local (2.8 MB); the repo ships a small public sample
+ai-engineering/data/all_posts.json
+
+# secrets
+.env
+*.key
